@@ -1,0 +1,135 @@
+.app {
+  display: flex;
+  width: 50vw;
+  min-height: 80vh;
+  margin-left: 25%;
+  margin-top: 3%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.app_left {
+  width: 35%;
+  margin: 15px;
+}
+.app_left_name {
+  margin: 0 0 3px;
+  color: rgba(26, 26, 26, 0.6);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 15px;
+}
+.app_left_heading {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.app_clock {
+  color: rgba(26, 26, 26, 0.6);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+.app_calender {
+  color: rgba(26, 26, 26, 0.6);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+.app_worldClock {
+  color: rgba(26, 26, 26, 0.6);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.app_right {
+  width: 65%;
+  margin: 15px;
+}
+.right_header {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.right_label {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.nameInput {
+  display: block;
+  box-sizing: border-box;
+  width: 75%;
+  min-height: 46px;
+  padding: 10px 14px;
+  color: #1a1a1a;
+  font-size: 16px;
+  line-height: 1.5;
+  overflow-wrap: normal;
+  background: #fff;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  margin-bottom: 10px;
+}
+.emailInput {
+  display: block;
+  box-sizing: border-box;
+  width: 75%;
+  min-height: 46px;
+  padding: 10px 14px;
+  color: #1a1a1a;
+  font-size: 16px;
+  line-height: 1.5;
+  overflow-wrap: normal;
+  background: #fff;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+.app_btn {
+  width: 100px;
+  height: 28px;
+  border: 1px solid rgb(47, 41, 232);
+  background-color: white;
+  color: rgb(48, 48, 244);
+  border-radius: 15px;
+  margin: 12px 0 12px 0;
+}
+.app_btn:hover {
+  cursor: pointer;
+}
+.app_textArea {
+  resize: both;
+  width: 350px;
+  height: 80px;
+  padding: 10px;
+  outline: none;
+  border-radius: 0.25rem;
+  border: 2px solid #eee;
+  margin-bottom: 10px;
+}
+.event_btn {
+  width: 150px;
+  height: 40px;
+  border: 1px transparent;
+  background-color: #0069ff;
+  color: white;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
